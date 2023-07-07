@@ -772,27 +772,18 @@ p {
   margin-bottom: 16px;
 }
 
-.container-name {
+.container-input {
   margin-bottom: 8px;
 }
 
-.container-input-name {
+.container-input-all {
   position: relative;
 }
 
-.container-phone {
-  margin-bottom: 8px;
+.container-comment {
+  margin-bottom: 16px;
 }
 
-.container-input-phone {
-  position: relative;
-}
-.container-email {
-  margin-bottom: 8px;
-}
-.container-input-email {
-  position: relative;
-}
 .modal-form-filed {
   display: block;
   margin-bottom: 4px;
@@ -843,13 +834,19 @@ p {
   padding: 8px 16px;
   height: 120px;
 
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+
   resize: none;
   outline: transparent;
+  background-color: transparent;
 
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   border-radius: 4px;
-  border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-form-comment::placeholder {

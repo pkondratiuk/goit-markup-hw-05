@@ -448,10 +448,10 @@
 
         <form class="modal-form" name="form-call-back">
           <!-- Div name -->
-          <div class="container-name">
+          <div class="container-input">
             <label class="modal-form-filed" for="user-name"> Name</label>
 
-            <div class="container-input-name">
+            <div class="container-input-all">
               <input
                 class="modal-form-input"
                 type="text"
@@ -464,10 +464,10 @@
           </div>
 
           <!-- Div phone -->
-          <div class="container-phone">
+          <div class="container-input">
             <label class="modal-form-filed" for="user-phone">Phone</label>
 
-            <div class="container-input-phone">
+            <div class="container-input-all">
               <input
                 class="modal-form-input"
                 type="tel"
@@ -480,10 +480,10 @@
           </div>
 
           <!-- Div Email -->
-          <div class="container-email">
+          <div class="container-input">
             <label class="modal-form-filed" for="user-email">Email</label>
-            >
-            <div class="container-input-email">
+
+            <div class="container-input-all">
               <input
                 class="modal-form-input"
                 type="email"
@@ -495,15 +495,16 @@
             </div>
           </div>
 
-          <label class="modal-form-filed">
-            <span class="modal-form-lable">Comment</span>
+          <div class="container-comment">
+            <label class="modal-form-filed" for="user-comment"> Comment</label>
             <textarea
               class="modal-form-comment"
               name="user_comment"
               cols="30"
               rows="10"
+              id="user-comment"
               placeholder="Text input"></textarea>
-          </label>
+          </div>
 
           <label class="modal-form-agree">
             <input
