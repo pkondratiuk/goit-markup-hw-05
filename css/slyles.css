@@ -903,14 +903,15 @@ p {
 }
 
 .modal-form-checkbox-icon {
-  opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-checkbox:checked
   + .modal-form-checkbox-custom
   > .modal-form-checkbox-icon {
-  opacity: 1;
+  border: none;
+  fill: var(--btn-bg-cl);
+  background-color: var(--checkbox-cl);
 }
 .modal-form-adree-text {
   color: #8e8f99;
