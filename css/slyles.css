@@ -780,6 +780,19 @@ p {
   position: relative;
 }
 
+.container-phone {
+  margin-bottom: 8px;
+}
+
+.container-input-phone {
+  position: relative;
+}
+.container-email {
+  margin-bottom: 8px;
+}
+.container-input-email {
+  position: relative;
+}
 .modal-form-filed {
   display: block;
   margin-bottom: 4px;

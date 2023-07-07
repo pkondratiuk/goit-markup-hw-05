@@ -447,6 +447,7 @@
         </p>
 
         <form class="modal-form" name="form-call-back">
+          <!-- Div name -->
           <div class="container-name">
             <label class="modal-form-filed" for="user-name"> Name</label>
 
@@ -462,22 +463,37 @@
             </div>
           </div>
 
-          <label class="modal-form-filed"
-            ><span class="modal-form-lable">Phone</span
-            ><input class="modal-form-input" type="tel" name="user-phone" /><svg
-              class="modal-form-icon"
-              width="18"
-              height="24">
-              <use href="./images/icons.svg#icon-phone-black"></use>
-            </svg>
-          </label>
+          <!-- Div phone -->
+          <div class="container-phone">
+            <label class="modal-form-filed" for="user-phone">Phone</label>
 
-          <label class="modal-form-filed"
-            ><span class="modal-form-lable">Email</span
-            ><input class="modal-form-input" type="email" name="user-email" />
-            <svg class="modal-form-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-email-black"></use></svg
-          ></label>
+            <div class="container-input-phone">
+              <input
+                class="modal-form-input"
+                type="tel"
+                name="user-phone"
+                id="user-phone" />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Div Email -->
+          <div class="container-email">
+            <label class="modal-form-filed" for="user-email">Email</label>
+            >
+            <div class="container-input-email">
+              <input
+                class="modal-form-input"
+                type="email"
+                name="user-email"
+                id="user-email" />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
+          </div>
 
           <label class="modal-form-filed">
             <span class="modal-form-lable">Comment</span>
