@@ -898,9 +898,8 @@ p {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-custom {
-  border: none;
+  border: var(--checkbox-cl);
   background-color: var(--checkbox-cl);
-  fill: var(--btn-bg-cl);
 }
 
 .modal-form-checkbox-icon {
