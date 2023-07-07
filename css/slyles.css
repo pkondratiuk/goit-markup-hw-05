@@ -11,6 +11,7 @@
   --title-cl: #2e2f42;
   --btn-cl-border: #e7e9fc;
   --costumers-link-cl: #8e8f99;
+  --checkbox-cl: #404bbf;
 }
 
 body {
@@ -897,8 +898,9 @@ p {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-custom {
-  border: #404bbf;
-  background-color: #404bbf;
+  border: none;
+  background-color: var(--checkbox-cl);
+  fill: var(--btn-bg-cl);
 }
 
 .modal-form-checkbox-icon {
@@ -921,4 +923,5 @@ p {
   letter-spacing: 0.48px;
 }
 .modal-form-link {
+  color: var(--btn-cl);
 }
