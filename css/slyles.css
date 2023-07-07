@@ -541,10 +541,15 @@ p {
   border: #4d5ae5;
   background: var(--iris, #4d5ae5);
   padding: 8px 24px;
-  gap: 16px;
   outline: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+  color: #ffffff;
+  text-align: center;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -555,18 +560,8 @@ p {
   background-color: #404bbf;
 }
 
-.footer-btn-text {
-  color: var(--white, #fff);
-  text-align: center;
-
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-}
-.footer-btn-sp-icon {
-}
-
 .footer-btn-icon {
+  margin-left: 16px;
 }
 
 /**
